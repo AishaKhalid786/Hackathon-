@@ -12,13 +12,13 @@ const Links = () => {
             Home
           </Link>
 
-          <Link href={"#"} className='text-sm font-normal hover:text-teal-500'>
+        <Link href={"#"} className='text-sm font-normal hover:text-teal-500'>
             Shop
           </Link>
 
-          <Link href={"#"} className='text -sm font-normal hover:text-teal-500'>
-            Product
-          </Link>
+          <li><Link href="/Products-page" className='text -sm font-normal hover:text-teal-500'>
+            Products
+          </Link></li>
 
           <Link href={"#"} className='text-sm font-normal hover:text-teal-500'>
             Pages

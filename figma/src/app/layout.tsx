@@ -9,6 +9,7 @@ import Hero from "./components/Hero";
 import Products from "./components/Products";
 import TopCategories from "./components/Categories";
 import Explore from "./components/Explore";
+import Our from "./components/our";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -51,6 +52,7 @@ export default function RootLayout({
             <Products />
             <TopCategories />
             <Explore />
+            <Our/>
             
 
             

@@ -19,14 +19,12 @@ const ExploreStyles = () => {
                 className="h-[648px] w-[648px] object-cover shadow-md"
               />
             </div>
-            <div className="absolute  left-0 transform translate-y-1/2 rotate-90">
+            <div className="absolute  left-[-52px] transform translate-y-1/2 rotate-90">
               <h2 className="text-lg font-semibold tracking-widest uppercase">
                 Explore New And Popular Styles
               </h2>
             </div>
           </div>
-  
-          {/* Right Side - 4 Smaller Images */}
           <div className="col-span-3 grid grid-cols-2 gap-4">
             {chairs.slice(1).map((chair) => (
               <div key={chair.id} className="relative w-full">
