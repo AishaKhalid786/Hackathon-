@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { ShoppingCart } from "lucide-react";
-
+import Image from 'next/image';
 
 const Productspage = () => {
 
@@ -40,7 +40,7 @@ const Productspage = () => {
                         {product.tag}
                       </span>
                     )}
-                    <img
+                    <Image
                       src={product.image}
                       alt={product.name}
                       className="w-[312px] h-[312px] object-cover border- rounded-lg"
@@ -82,22 +82,22 @@ const Productspage = () => {
 
        <div className=' grid grid-cols-2 md:grid-cols-6 gap-[24px]'>
         <div className='bg-white rounded shadow'>
-            <img src="/Image (9).png" alt="Product 1" className='w-full'/>
+            <Image src="/Image (9).png" alt="Product 1" className='w-full'/>
         </div>
         <div className='bg-white rounded shadow'>
-            <img src="/Image (8).png" alt="Product 2" className='w-full'/>
+            <Image src="/Image (8).png" alt="Product 2" className='w-full'/>
         </div>
         <div className='bg-white rounded shadow'>
-            <img src="/Image (4).png" alt="Product 3" className='w-full'/>
+            <Image src="/Image (4).png" alt="Product 3" className='w-full'/>
         </div>
         <div className='bg-white rounded shadow'>
-            <img src="/Image (3).png" alt="Product 4" className='w-full'/>
+            <Image src="/Image (3).png" alt="Product 4" className='w-full'/>
         </div>
         <div className='bg-white rounded shadow'>
-            <img src="/Image (5).png" alt="Product 5" className='w-full'/>
+            <Image src="/Image (5).png" alt="Product 5" className='w-full'/>
         </div>
         <div className='bg-white rounded shadow'>
-            <img src="/Image (10).png" alt="Product 6" className='w-full'/>
+            <Image src="/Image (10).png" alt="Product 6" className='w-full'/>
         </div>
         
 

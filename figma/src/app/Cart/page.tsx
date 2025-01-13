@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaRegHeart } from "react-icons/fa";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import Image from 'next/image';
 const Cart = () => {
   return (
     <div className='flex flex-col md:flex-row p-6 md:space-x-6 space-y-6 md:space-y-0 min-h-screen'>
@@ -8,7 +9,7 @@ const Cart = () => {
             <h2 className='font-medium text-[22px] text-[#111111] mb-4'>Bag</h2>
             <div className='
             flex items-center gap-[24px] border-b pb-4 mb-4'>
-                <img src="/Image (5).png" alt="Library Stool Chair" className='w-[150px] h-[150px] object-cover' />
+                <Image src="/Image (5).png" alt="Library Stool Chair" className='w-[150px] h-[150px] object-cover' />
                 <div className='ml-4 flex-1'>
                     <h3 className='font-normal  text-[16px] text-[#272343]'>Library Stool Chair</h3>
                     <p className='text-[#757575] text-[15px] font-normal'>Ashen Slate/Cobalt Bliss</p>
@@ -21,7 +22,7 @@ const Cart = () => {
             </div>
             <div className='
             flex items-center gap-[24px] border-b pb-4 mb-4'>
-                <img src="/Image (8).png" alt="Library Stool Chair" className='w-[150px] h-[150px] object-cover' />
+                <Image src="/Image (8).png" alt="Library Stool Chair" className='w-[150px] h-[150px] object-cover' />
                 <div className='ml-4 flex-1'>
                     <h3 className='font-normal  text-[16px] text-[#272343]'>Library Stool Chair</h3>
                     <p className='text-[#757575] text-[15px] font-normal'>Ashen Slate/Cobalt Bliss</p>

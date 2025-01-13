@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 const Categories = () => {
     const categories = [
       {
@@ -30,7 +30,7 @@ const Categories = () => {
               key={category.id}
               className="relative rounded-lg overflow-hidden shadow-lg"
             >
-              <img
+              <Image
                 src={category.imageUrl}
                 alt={category.title}
                 className="h-[424px] w-[424px] object-cover"

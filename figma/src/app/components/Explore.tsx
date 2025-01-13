@@ -1,3 +1,4 @@
+import Image from "next/image";
 const ExploreStyles = () => {
     const chairs = [
       { id: 1, imageUrl: "/item-category 1.png", alt: "Orange Chair" },
@@ -10,10 +11,10 @@ const ExploreStyles = () => {
     return (
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-6 items-center">
-          {/* Left Side - Vertical Text and Main Image */}
+        
           <div className="col-span-2 flex flex-col items-center">
             <div className="relative w-full">
-              <img
+              <Image
                 src={chairs[0].imageUrl}
                 alt={chairs[0].alt}
                 className="h-[648px] w-[648px] object-cover shadow-md"
@@ -28,7 +29,7 @@ const ExploreStyles = () => {
           <div className="col-span-3 grid grid-cols-2 gap-4">
             {chairs.slice(1).map((chair) => (
               <div key={chair.id} className="relative w-full">
-                <img
+                <Image
                   src={chair.imageUrl}
                   alt={chair.alt}
                   className="h-[312px] w-[312px] object-cover shadow-md"

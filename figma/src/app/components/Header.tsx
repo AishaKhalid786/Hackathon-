@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import { Input } from '@/components/ui/input'
 import { ShoppingCart, Sofa } from 'lucide-react'
 

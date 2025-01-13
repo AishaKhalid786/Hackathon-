@@ -1,4 +1,5 @@
 import { ShoppingCart } from "lucide-react";
+import Image from "next/image";
 
 const Products = () => {
     const products = [
@@ -24,7 +25,7 @@ const Products = () => {
                     {product.tag}
                   </span>
                 )}
-                <img
+                <Image
                   src={product.image}
                   alt={product.name}
                   className="w-[312px] h-[312px] object-cover border- rounded-lg"

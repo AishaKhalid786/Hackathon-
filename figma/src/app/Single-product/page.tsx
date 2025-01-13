@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { LuShoppingCart } from "react-icons/lu";
+import Image from 'next/image';
 
 
 
@@ -19,7 +20,7 @@ const Shop = () => {
       <div className='py-10 px-5 '>
         <div className='grid md:grid-cols-2 grid-cols-1 max-w-7xl mx-auto items-center gap-10'>
         <div className='bg-white p-5 rounded shadow-md'>
-            <img src="/Image (4).png" alt="Library Stool Chair" className='w-full rounded' />
+            <Image src="/Image (4).png" alt="Library Stool Chair" className='w-full rounded' />
         </div>
         <div>
             <h1 className='font-bold text-[60px] text-[#272343] mb-2'>Library Stool Chair</h1>
@@ -38,7 +39,7 @@ const Shop = () => {
             <div key={product.id} className="bg-white p-4 rounded-lg shadow-md">
               <div className="relative">
         
-                <img
+                <Image
                   src={product.image}
                   alt={product.name}
                   className="w-[270px] h-[263px] object-cover rounded-lg"

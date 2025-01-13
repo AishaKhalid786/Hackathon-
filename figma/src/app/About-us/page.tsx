@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdLabelImportant } from "react-icons/md";
+import Image from 'next/image';
     const About = () => {  
 
             const features = [
@@ -42,7 +43,7 @@ import { MdLabelImportant } from "react-icons/md";
 
     
           <div className="lg:w-1/2 mt-8 lg:mt-0 ">
-            <img
+            <Image
               src="/Image (3).png"
               alt="Chair"
               className=" mx-auto w-[619px] h-[478px]"
