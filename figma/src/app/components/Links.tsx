@@ -12,7 +12,7 @@ const Links = () => {
             Home
           </Link>
 
-        <Link href={"#"} className='text-sm font-normal hover:text-teal-500'>
+        <Link href="/Single-product" className='text-sm font-normal hover:text-teal-500'>
             Shop
           </Link>
 
@@ -20,11 +20,11 @@ const Links = () => {
             Products
           </Link></li>
 
-          <Link href={"#"} className='text-sm font-normal hover:text-teal-500'>
+          <Link href="/Cart" className='text-sm font-normal hover:text-teal-500'>
             Pages
           </Link>
 
-          <Link href={"#"} className='text-sm font-normal hover:text-teal-500'>
+          <Link href="/About-us" className='text-sm font-normal hover:text-teal-500'>
             About
           </Link>
         </div>
